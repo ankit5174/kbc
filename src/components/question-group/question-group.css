@@ -1,0 +1,28 @@
+.question-group {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.question-group .questions {
+    flex-basis: calc(100vh);
+    flex-grow:10;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    overflow-y: auto;
+}
+.question-group .controls {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2px;
+}
+
+.question-group .controls > input {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #272c33;
+    color: #ebebeb;
+}
